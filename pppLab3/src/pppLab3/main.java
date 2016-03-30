@@ -9,7 +9,7 @@ public class main {
 
 	public static String changeNumber(String s){
 		String newS;
-			newS=s.substring(0,2)+"("+s.substring(2,5)+")"+s.substring(5,8)+"-"+s.substring(8,10)+"-"+s.substring(10,12);
+			newS=s.substring(0,1)+"1"+"("+s.substring(2,5)+")"+s.substring(5,8)+"-"+s.substring(8,10)+"-"+s.substring(10,12);
 		return newS;
 	}
 	public static void main(String[] args) {
